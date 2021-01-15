@@ -1,0 +1,19 @@
+var cat,catAnimation,mouse,mouseAnimation;
+var garden,gardenImg
+
+function preload(){
+catAnimation=loadAnimation("tomOne.png","tomTwo.png","tomThree.png","tomFour.png"
+
+mouseAnimation=loadAnimation("jerryOne.png","jerryTwo.png","jerryThree.png","jerryFour.png")
+
+gardenImg=loadImage("garden.png")
+}
+
+function setup(){
+createCanvas(800,400)
+}
+
+function play(){
+background("black")
+}
+
